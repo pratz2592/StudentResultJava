@@ -1,0 +1,22 @@
+
+
+
+package student.result;
+
+public class StudentResult {
+
+    public static void main(String[] args) {
+       
+        FirstSemester std1 = new FirstSemester("Pratik", 19, 10111);
+        std1.setMarks(60,70);
+        System.out.println("\nFirst Semester Student's Info:");
+        std1.getSubject();
+        std1.showResult();
+        
+        SecondSemester std2 = new SecondSemester("Aamir", 20, 31543);
+        std2.setMarks(70,80);
+        System.out.println("\n\nSecond Semester Student's Info:");
+        std2.getSubject();
+        std2.showResult();
+    }
+}
